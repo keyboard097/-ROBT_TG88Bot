@@ -1,12 +1,10 @@
-# Telegram Bot to Help Channel Administrators
+# Telegram Bot @ROBT_TG88Bot
 
-## Introduction
-This project is the source code of a Telegram bot with various features such as sending all kinds of messages to the channel without quoting, creating a variety of inline buttons, attaching files, building hyperlinks, changing message information, changing messages caption and anonymize, etc. The bot supports two languages, English and Persian (فارسی).
 
+This project is the source code of a Telegram bot with various featusuch as sending all kinds of messages to the channel without quoting, creating a variety of inline buttons, attaching files, building hyperlinks, changing message information, changing messages caption and anonymize, etc. The bot supports two languages, English and Persian 
 A live demo of the bot is available at https://t.me/chToolsBot.
 
-## Requirements
-To use this Telegram bot, you need to have the following requirements:
+## RequirementsTo use this Telegram bot, you need to have the following requirements:
 
 - PHP 7.4 or higher
 - Composer
@@ -18,8 +16,8 @@ To use this Telegram bot, you need to have the following requirements:
 
 ### Create a Telegram Bot
 Before getting started, you will need to create a Telegram bot by following these steps:
-1. Open the Telegram app and search for the @BotFather bot.
-2. Start a chat with @BotFather and send the message /newbot.
+1. Open the Telegram app and search for the @ROBT_TG88Bot.
+2. Start a chat with @BotFather and se
 3. Follow the on-screen instructions to choose a name and username for your bot.
 4. Once you have successfully created your bot, you will receive an API token. Save this token as you will need it later.
 5. Also, make sure that the `Inline mode` for the bot is enabled in the BotFather settings and make sure `Inline feedback` is set to 100%.
@@ -39,7 +37,7 @@ To install dependencies, navigate to the root directory of the project in your t
 composer install
 ```
 
-### Configuring the Bot
+### @ROBT_TG88Bot
 The `config.php` file must be set according to the instructions provided in the file itself. Please make sure to set the necessary variables, including your database connection information.
 
 In addition to setting the config.php file, there is one more important step to take. An account must be set as the **robot admin**. To do this, you must manually add the admin account information to the `tbl_admins` table in the database. The `user_id` column in this table should be set with the numeric ID of the admin account. This will allow the admin account to have access to certain commands and features not available to regular users.
